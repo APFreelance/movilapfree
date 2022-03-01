@@ -598,7 +598,6 @@ footer:hover{
         text-align: center;
 
         width: 100%;
-        margin-bottom: 5px;
     }
     #_head section div p span{
         color: #f6a318;
@@ -667,7 +666,7 @@ footer:hover{
         font-size: 70px;
         color: #27549c;
 
-        margin: 25px 42% 40px 42%;
+        margin: 25px 40% 40px 40%;
     }
     #servicios article h3{
         font-family: roboto;
