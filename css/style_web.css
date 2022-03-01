@@ -611,7 +611,7 @@ footer:hover{
         line-height: 30px;
 
         width: 75%;
-        margin: 0px auto;
+        margin: auto;
         animation: none;
     }
     #_head section div ul li{
@@ -729,7 +729,7 @@ footer:hover{
         width: 100%;
         height: 250px;
         top: 250px;
-        padding: auto 40%;
+        padding: auto 60px;
     }
     #portafolio figure:hover > figcaption{
         top: 0px;
