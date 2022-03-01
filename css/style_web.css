@@ -730,7 +730,7 @@ footer:hover{
         width: 100%;
         height: 250px;
         top: 250px;
-        padding: auto 50px;
+        padding: auto 40%;
     }
     #portafolio figure:hover > figcaption{
         top: 0px;
