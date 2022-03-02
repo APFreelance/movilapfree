@@ -17,7 +17,6 @@ body{
 }
 /*------------FLECHA-------------*/
 #arrow{
-    z-index: 998;
     position: fixed;
     display: block;
     right: 20px;
@@ -36,7 +35,6 @@ body{
 /*------------REDES-------------*/
 aside{
     background-color: #262626;
-    z-index: 997;
     position: fixed;
     top: 40%;
     border-top-right-radius: 5px;
@@ -75,9 +73,6 @@ aside a i:hover{
     color: #0e76a8;
 }
 /*------------MENÚ-------------*/
-#menu_burger{
-    display: none;
-}
 #_menu{
     z-index: 999;
     position: fixed;
@@ -107,8 +102,6 @@ aside a i:hover{
     width: 100%;
 }
 #_menu nav{
-    background-color:;
-
     float: right;
     margin-right: 70px;
     padding: 20px 0px;
@@ -123,7 +116,7 @@ aside a i:hover{
 .check_btn{
     color: #f6a318;
     font-size: 35px;
-    line-height: 45px;
+    line-height: 55px;
     
     float: right;
     cursor: pointer;
@@ -536,7 +529,6 @@ footer:hover{
         display: block;
     }
     #_menu{
-        z-index: ;
         position: fixed;
         top: 0px;
         background-color: #222222;
@@ -560,8 +552,11 @@ footer:hover{
         height: 100%;
         width: 100%;
     }
+    #_menu nav{
+        position: absolute;
+    }
     #_menu nav ul{
-        background-color: rgba(34,34,34,0.95);
+        background-color: rgba(34,34,34,0.98);
         position: fixed;
         transition: all 0.4s;
         width: 100%;
@@ -938,7 +933,6 @@ footer:hover{
     /*---------*/
     aside{
         background-color: #262626;
-        z-index: 997;
         position: fixed;
         top: 40%;
         border-top-right-radius: 5px;
