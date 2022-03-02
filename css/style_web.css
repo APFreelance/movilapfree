@@ -117,6 +117,19 @@ aside a i:hover{
 #_menu nav ul{
     list-style: none;
 }
+#check{
+    display: none;
+}
+.check_btn{
+    color: #f6a318;
+    font-size: 35px;
+    line-height: 45px;
+    
+    float: right;
+    cursor: pointer;
+    display: none;
+}
+.check_btn i{}
 #_menu nav ul li{
     display: inline-block;
 }
@@ -133,12 +146,6 @@ aside a i:hover{
 }
 #_menu nav ul li a:hover{
     color: #f6a318;
-}
-/*------------MENU RESPONSIVE-------------*/
-#_menu nav ul #menu_burger{
-    font-size: 2em;
-    color: #f6a318;
-    display: none;
 }
 /*------------CABECERA-------------*/
 #_head{
@@ -496,6 +503,7 @@ aside a i:hover{
     font-weight: 500;
     font-size: 1em;
     border: none;
+    cursor: pointer;
 }
 .input_send:hover{
     background-color: #27549c;
@@ -524,14 +532,11 @@ footer:hover{
 /*------------RESPONSIVE-------------*/
 @media only screen and (max-width: 767px){
 
-    #_menu nav ul #menu_burger{
+    .check_btn{
         display: block;
     }
-    #_menu nav{
-        display: none;
-    }
     #_menu{
-        z-index: 998;
+        z-index: ;
         position: fixed;
         top: 0px;
         background-color: #222222;
@@ -554,6 +559,14 @@ footer:hover{
     #_menu figure a img{
         height: 100%;
         width: 100%;
+    }
+    #_menu nav ul{
+        background-color: rgba(34,34,34,0.95);
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        right: 0px;
     }
     /*---------*/
     #_head{
